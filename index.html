@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+
+        <!-- Bootstrap CDN -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+            crossorigin="anonymous"
+        />
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+            crossorigin="anonymous"
+            defer
+        ></script>
+
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+            rel="stylesheet"
+        />
+
+        <title>Single-Responsive</title>
+    </head>
+    <body id="top">
+        <!-- Nav Bar -->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand fs-3" href="#top">Food, LLC</a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav d-lg-none text-center w-100">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#chicken">Chicken</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#beef">Beef</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#sushi">Sushi</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div
+                    class="collapse navbar-collapse"
+                    id="navbarSupportedContent"
+                ></div>
+            </div>
+        </nav>
+
+        <div class="main-content">
+            <!-- Main Heading -->
+            <h1 class="text-center pt-4 mb-4 fs-2">- Our Menu -</h1>
+
+            <!-- Sections -->
+            <div class="container">
+                <div class="row">
+                    <!-- Chicken Section -->
+                    <div
+                        class="col-lg-4 col-md-6 col-12 d-flex mb-5"
+                        id="chicken"
+                    >
+                        <div class="section flex-fill">
+                            <h3 class="text-center mb-4 pt-3">Chicken</h3>
+                            <img
+                                src="https://static01.nyt.com/images/2024/01/04/multimedia/LH-Baked-Chicken-Thighs-hzgq/LH-Baked-Chicken-Thighs-hzgq-superJumbo.jpg"
+                                class="img-fluid shadow-lg rounded"
+                                alt="chicken-photo"
+                            />
+                            <p class="mt-3">
+                                Chicken is one of the most popular and versatile
+                                proteins in the world. It can be grilled,
+                                roasted, fried, or used in soups and salads.
+                                Known for its lean meat and high protein
+                                content, chicken is a healthy and delicious
+                                choice for any meal. Whether served in a
+                                comforting chicken noodle soup, a flavorful
+                                stir-fry, or a classic roasted dish, it offers
+                                endless possibilities. Add your favorite spices
+                                to create nutritious and satisfying meals.
+                            </p>
+                            <button
+                                type="button"
+                                class="btn btn-light mt-3 mb-3"
+                            >
+                                <a href="#top">Back to Top</a>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Beef Section -->
+                    <div class="col-lg-4 col-md-6 col-12 d-flex mb-5" id="beef">
+                        <div class="section flex-fill">
+                            <h3 class="text-center mb-4 pt-3">Beef</h3>
+                            <img
+                                src="https://faithfamilyandbeef.com/wp-content/uploads/2019/02/Ridiculously-Tasty-Beef-Tenderloin-3-scaled.jpg"
+                                class="img-fluid shadow-lg rounded"
+                                alt="beef-photo"
+                            />
+                            <p class="mt-3">
+                                Beef is a rich and hearty protein that comes in
+                                many cuts, from tender steaks to slow-cooked
+                                brisket. It’s a staple ingredient in cuisines
+                                worldwide, from juicy burgers to savory beef
+                                stews. Packed with iron and essential nutrients,
+                                beef is a satisfying choice for those looking
+                                for a robust meal. Experiment with different
+                                marinades and cooking methods to bring out the
+                                best flavors.
+                            </p>
+                            <button
+                                type="button"
+                                class="btn btn-light mt-3 mb-3"
+                            >
+                                <a href="#top">Back to Top</a>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Sushi Section -->
+                    <div
+                        class="col-lg-4 col-md-12 col-12 d-flex mb-5"
+                        id="sushi"
+                    >
+                        <div class="section flex-fill">
+                            <h3 class="text-center mb-4 pt-3">Sushi</h3>
+                            <img
+                                src="https://ik.imagekit.io/awwybhhmo/satellite_images/japanese/beyondmenu/about_us/16.jpg?tr=w-3840"
+                                class="img-fluid shadow-lg rounded"
+                                alt="sushi-photo"
+                            />
+                            <p class="mt-3">
+                                Sushi is a traditional Japanese dish that
+                                combines vinegared rice with fresh fish,
+                                vegetables, or other toppings. Known for its
+                                delicate flavors and beautiful presentation,
+                                sushi is both an art and a cuisine. Whether you
+                                prefer classic rolls, sashimi, or creative
+                                modern variations, sushi offers something for
+                                every palate. Don’t forget the wasabi and soy
+                                sauce for the perfect finishing touch!
+                            </p>
+                            <button
+                                type="button"
+                                class="btn btn-light mt-3 mb-3"
+                            >
+                                <a href="#top">Back to Top</a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="footer text-center py-2">
+            <div class="container">
+                <p>© 2024 Food, LLC. All rights reserved.</p>
+            </div>
+        </footer>
+    </body>
+</html>

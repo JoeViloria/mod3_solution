@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+div.main-content {
+    background-color: #fefdf9; /* Light yellow background */
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid {
+    background-color: #973131;
+}
+
+.container-fluid a {
+    color: #fff;
+}
+
+h1,
+.section,
+.navbar-brand {
+    font-family: "Playfair Display", serif !important;
+}
+
+p {
+    font-family: "Lora", serif;
+}
+
+h1.text-center {
+    margin: 0;
+    padding: 0;
+    color: #973131;
+}
+
+h3.text-center {
+    color: #e0a75e;
+    font-weight: 600;
+}
+
+button a {
+    text-decoration: none;
+    color: black;
+}
+
+button.btn {
+    background-color: #f7f5e9;
+}
+
+button.btn:hover {
+    background-color: #f9d689;
+    border-color: #f9d689;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+nav.navbar-expand-lg.bg-body-tertiary {
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-nav .nav-link:hover {
+    background-color: #e0a75e;
+    color: #fff;
+}
+
+button.navbar-toggler,
+div.container-fluid span.navbar-toggler-icon {
+    background-color: #fff;
+}
+
+.footer {
+    background-color: #f5e7b2; /* Light beige background */
+    color: #973131; /* Dark text color */
+    font-family: "Lora", serif; /* Match the rest of the text style */
+    border-top: 1px solid #973131; /* Optional: A subtle top border for separation */
+}
+
+.footer a {
+    color: #973131; /* Link color */
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+footer p {
+    margin-bottom: 0;
+}
+
+a.navbar-brand:hover {
+    color: #f9d689;
+}
+
+button a {
+    color: #e0a75e;
+    font-weight: 400;
+}
+
+button a:hover {
+    color: #fff;
+}
